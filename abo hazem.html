@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>منصه تعميد</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="index.js"></script>
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("VNyPYoOL1dfg5PTaR");
+})();
+</script>
+  </head>
+  <body>
+    <div class="container border mt-3 bg-light">
+      <div class="row">
+        <div class="col-md-6 p-5 bg-primary text-white">
+          <h1>ما هى منصه ابو حازم للتعميد</h1>
+          <h4>
+            *شركة تعميد للوساطة المالية منصة للخدمات الالكترونية تجمع بين العملاء و مقدمي الخدمات في السعودية . شركة تعميد للوساطة المالية . كوم تعمل بنظام P2P كمنصة في مجال الاقتصاد التشار
+            🚩 شروط التعميد :
+            1- الاتفاق مع المعقب على كامل التفاصيل قبل طلب التعميد . 
+            2- التعامل مع صاحب الحساب شخصيا .
+            3- إرفاق المعاملة قبل وبعد الإنجاز .
+            4- تأكيد الإنجاز أو الإلغاء من الطرفين .
+            5- الاسترجاع على نفس الحساب فقط . 
+            6- حدود مسؤوليتنا هي حفظ الحقوق المالية فقط لاغير ولا علاقة لنا بالمعاملة من أي نوع كانت .
+            7- تقر و توافق على إخلاء مسؤوليتنا عن أي مخالفات أو أي مترتبات على المعاملة .
+            8_ اذا لم يؤكد المعقب استلام المعاملة في القروب خلال 24 ساعة يحق لصاحب الطلب الغاء او تغيير المعقب
+            —————————————
+            الامتناع عن المعاملات المخالفة للأنظمة و التعليمات ، تقر و توافق على  الشروط والأحكام
+   </h4>
+        </div>
+        <div class="col-md-6 border-left py-3">
+          <h1>طلب تعميد</h1>
+          <div class="form-group">
+            <h5 for="name">رقم واتساب الخاص بك</h5>
+            <input
+              type="text1"
+              class="form-control"
+              id="name1"
+              placeholder="ادخل رقم واتساب الخاص بك"
+            />
+          </div>
+          <div class="form-group">
+            <h5 for="text2">رقم واتساب مقدم الخدمه</h5>
+            <input
+              type="text"
+              class="form-control"
+              id="name2"
+              placeholder="ادخل رقم واتساب مقدم الخدمه"
+            />
+          </div>
+          <div class="form-group">
+            <h5 for="text3">فتره التعميد بالايام</h5>
+            <input
+              type="text"
+              class="form-control"
+              id="name3"
+              placeholder="ادخل فتره التعميد بالايام"
+            />
+          </div>
+          <div class="form-group">
+            <h5 for="text4">قيمه التعميد</h5>
+            <input
+              type="text"
+              class="form-control"
+              id="name4"
+              placeholder="ادخل قيمه التعميد"
+            />
+          </div>
+          <div class="form-group">
+            <h5 for="message">تفاصيل الاتفاق</h5>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

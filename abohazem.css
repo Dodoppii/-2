@@ -1,0 +1,12 @@
+h1 { color: rgb(255, 0, 0);font-size: 100px;
+border: 5px solid greenyellow;
+margin:auto }
+body {
+    background: rgba(7, 159, 2, 0.675) url("img_tree.gif") no-repeat fixed center;
+  }
+  
+h2{color: rgb(18, 180, 0)}
+body {  height: 600px;}
+    h2 { color: rgb(18, 180, 0); 
+    border: 5px solid rgb(255, 8, 0);
+width: 300px; margin: auto; }
